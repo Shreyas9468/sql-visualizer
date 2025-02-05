@@ -1,0 +1,71 @@
+/* App.css */
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-screen {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ccc;
+}
+
+.left-pane, .right-pane {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.left-pane {
+  background-color: #f9f9f9;
+}
+
+.right-pane {
+  background-color: #e9e9e9;
+}
+
+.view-buttons {
+  margin-bottom: 20px;
+}
+
+.view-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.run-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.run-button:hover {
+  background-color: #0056b3;
+}
+
+.query-result table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.query-result th, .query-result td {
+  border: 1px solid black;
+  padding: 8px;
+}
